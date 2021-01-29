@@ -1,0 +1,110 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: orange;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 150px;
+	background-color: orange;
+	padding-left: 20px;
+}
+.navbar-links{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-right: 20px;
+	font-size: 25px;
+}
+.links-btn{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.banner{
+	background-image: url(http://www.lucky-you.tv/wp-content/uploads/shutterstock_227339269-850x4791.jpg); opacity: 0.7; 
+	background-size: cover;
+  	width: 100%;
+  	margin: 0 auto;
+  	height: 800px;
+  	text-align: center;
+  	padding-left: 250px;
+  	padding-right: 250px;
+  	padding-bottom: 250px;
+  	padding-top: 425px;
+  	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  	font-weight: bold;
+}
+.concept{
+	text-align: justify;
+	height: 300px;
+	padding: 50px
+}
+.service-container{
+	display: flex;
+	justify-content: space-around;
+	padding: 100px;
+}
+.service-card{
+	text-align: justify;
+	padding: 10px;
+}
+.icon{
+	width: 10vw;
+}
+.product{
+	width: 25vw;
+	border-radius: 250px;
+	align-items: center;
+}
+.product-card{
+	text-align: justify;
+	padding: 10px;
+}
+h3{
+	text-align: center;
+	padding-top: 10px;
+}
+.logo{
+	width: 75%;
+}
+.map-container{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.typeform-widget{
+	padding-top: 40px;
+}
+.newsletter-container{
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.footer{
+display: flex;
+justify-content: space-between;
+background-color: #c79815;
+color: #fff;
+font-size: 20px;
+padding: 50px;
+}
+.icon-sn{
+	width: 45px;
+	height: 45px;
+	padding: 5px;
+}
+.links-sn{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
